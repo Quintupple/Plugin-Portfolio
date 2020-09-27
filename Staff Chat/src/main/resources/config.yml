@@ -1,0 +1,8 @@
+#Created by Quintupple
+#Always use & for colour codes
+
+#This is for the [STAFF-CHAT] prefix || always leave a space after prefix
+prefix: '&8[&bSTAFF-CHAT&8] &a'
+
+#This is for the chat colour. By default, this is &c || Red.
+chatColour: '&c'

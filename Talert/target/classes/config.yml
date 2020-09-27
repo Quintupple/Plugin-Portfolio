@@ -1,0 +1,11 @@
+# Plugin made by Quintupple
+# Sound list at https://www.spigotmc.org/wiki/cc-sounds-list/
+# Example, "ENTITY_ENDER_DRAGON_DEATH" <-- you need to put a _ if it doesn't work.
+# Sounds:
+wrong_usage_alert_sound: "BLOCK_ANVIL_PLACE"
+alert_sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+talert_sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+# Messages:
+no_permission: "&cYou do not have permission to use this command."
+alert_prefix: "&8[&cAlert&8] &7"
+talert_subtitle_colour: " "

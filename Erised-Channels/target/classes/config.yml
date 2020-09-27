@@ -1,0 +1,56 @@
+#################################
+# Permission Nodes              #
+#                               #
+# Global (echat.global)         #
+# Local (echat.local)           #
+#                               #
+# Gryffindor (echat.gryffindor) #
+# Hufflepuff (echat.hufflepuff) #
+# Ravenclaw (echat.ravenclaw)   #
+# Slytherin (echat.slytherin)   #
+#                               #
+# Staff (echat.staff)           #
+# Head Staff (echat.headstaff)  #
+#                               #
+# Reload config (echat.reload)  #
+# View channels (echat.channels)#
+#                               #
+# Permission Nodes              #
+#################################
+
+#===============================#
+
+#################################
+#                               #
+#       Prefixes & misc.        #
+#                               #
+#################################
+
+global-prefix: '&a[G] &r'
+local-prefix: '&d[L] &r'
+
+gryffindor-prefix: '&7[&4House&7] &r'
+hufflepuff-prefix: '&7[&eHouse&7] &r'
+ravenclaw-prefix: '&7[&9House&7] &r'
+slytherin-prefix: '&7[&2House&7] &r'
+
+staff-prefix: '&7[&dStaff&7] &r'
+staff-chat-colour: '&d'
+head-staff-prefix: '&5[Head Staff] &r'
+head-staff-chat-colour: '&c'
+
+config-reload: '&7[&4ErisedChat&7] &cConfiguration reloaded.'
+noperm-configreload: '&cYou do not have permission to reload the channel plugin.'
+
+#No permission messages to access the house channels.
+noperm-gryffindor: '&cYou do not have permission to use GRYFFINDOR chat.'
+noperm-hufflepuff: '&cYou do not have permission to use HUFFLEPUFF chat.'
+noperm-ravenclaw: '&cYou do not have permission to use RAVENCLAW chat.'
+noperm-slytherin: '&cYou do not have permission to use SLYTHERIN chat.'
+
+# No permission message for viewing the channels.
+noperm-channels: '&cYou do not have permission to see the channels. Contact an ADMIN if you believe this is a problem.'
+noperm-global: '&cYou do not have permission to use GLOBAL chat.'
+noperm-local: '&cYou do not have permission to use LOCAL chat.'
+noperm-headstaff: '&cYou do not have permission to use HEAD STAFF chat.'
+noperm-staff: '&cYou do not have permission to use STAFF chat.'

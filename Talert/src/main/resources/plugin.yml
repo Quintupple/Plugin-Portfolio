@@ -1,0 +1,12 @@
+name: Alert
+version: 1.0
+main: me.quintupple.alert.Alert
+api-version: 1.13
+description: Alert Plugin
+commands:
+  alert:
+    description: Sends out an alert message.
+  talert:
+    description: Sends out a title alert message.
+  areload:
+    description: Reloads the config.yml file.

@@ -1,0 +1,17 @@
+name: MagicalMoney
+version: ${project.version}
+main: me.quintupple.magicalmoney.MagicalMain
+api-version: 1.13
+authors: [Quintupple]
+description: Economy Plugin for Obscurus
+depend: [Vault]
+commands:
+  pmoney:
+    description: Opens Economy GUI
+    aliases: [pmo]
+  currency:
+    description: Displays the currency
+    aliases: [c]
+  mmreload:
+    description: Reloads config
+    aliases: [mmrl]

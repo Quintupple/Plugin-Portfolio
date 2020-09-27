@@ -1,0 +1,12 @@
+name: ErisedChat
+version: 1.0
+main: me.quintupple.channelerised.channelerised
+authors: [Quintupple]
+description: A custom chat system for Erised
+depend: [Vault]
+commands:
+  echannels:
+    description: Lists the channels available
+    aliases: [ech]
+  ecrl:
+    description: Reloads the plugin configuration

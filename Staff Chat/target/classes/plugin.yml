@@ -1,0 +1,13 @@
+name: StaffChat
+version: 1.0
+main: me.quintupple.staffchat.staffchat
+authors: [Quintupple]
+description: A custom staff chat plugin
+depend: [Vault]
+commands:
+  staffchat:
+    description: Allows you into the staff chat
+    aliases: [sc]
+  screload:
+    description: Reloads the configuration for staff chat
+    aliases: [scrl]
