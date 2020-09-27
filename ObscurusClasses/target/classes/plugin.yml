@@ -1,0 +1,15 @@
+name: ObscurusClasses
+version: 1.0
+main: me.quintupple.obscurusclasses.ObscurusClasses
+api-version: 1.13
+authors: [Quintupple]
+description: School Class system for Obscurus
+depend: [Vault, Magic]
+commands:
+  ochelp:
+    description: Help for the class plugin
+    aliases: [ochelp]
+  ocrl:
+    description: Reload the class plugin configuration
+  class:
+    description: Main command
